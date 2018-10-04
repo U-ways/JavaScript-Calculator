@@ -18,4 +18,4 @@ If there is one thing I learned from building this project, it would be What [_E
 
 ________________________________________________________________________________
 
-[Demo]:https://codepen.io/u-ways/full/zNXeZL/
+[Demo]:https://codepen.io/u-ways/pen/zNXeZL/
