@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../greenLabTemplate.css">
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="../greenLabTemplate.js" defer></script>
+  <script type="text/javascript" src="./script.js" defer></script>
+  <title>Tic-Tac-Toe Application w/ Minimax Algorithm</title>
+</head>
+<body
+  <div id="container">
+    <header class="grid cols-6" id="header">
+      <section id="proj-heading">
+        <h1>JavaScript Calculator</h1>
+      </section>
+      <details id="proj-details">
+        <summary>Project Info</summary>
+        <section class="grid cols-2 rows-2" id="details-body">
+          <div class="details-column"></div>
+          <div class="details-column"></div>
+        </section>
+      </details>
+    </header>
+    <main class="flex-c" id="app">
+      <div class="flex-c" id="calculator-con">
+        <section id="display">
+          <div id="screen">0</div>
+          <p id="tracker">Standard</p>
+        </section>
+        <section class="flex-c" id="keypad">
+          <ul class="flex-r" id="operators">
+            <li data-value="/">&div;</li>
+            <li data-value="*">&times;</li>
+            <li data-value="+">+</li>
+            <li data-value="-">-</li>
+          </ul>
+          <ul class="flex-r" id="numbers">
+            <li class="number" data-value="1">1</li>
+            <li class="number" data-value="2">2</li>
+            <li class="number" data-value="3">3</li>
+            <li class="number" data-value="4">4</li>
+            <li class="number" data-value="5">5</li>
+            <li class="number" data-value="6">6</li>
+            <li class="number" data-value="7">7</li>
+            <li class="number" data-value="8">8</li>
+            <li class="number" data-value="9">9</li>
+            <li class="number" data-value="0">0</li>
+            <li id="decimal">.</li>
+            <li id="clear">C</li>
+          </ul>
+          <button id="equal">=</button>
+        </section>
+      </div>
+    </main>
+    <footer id="footer">
+      <p>Last Updated:
+        <time datetime="2017-05-03"> 03/05/2017</time>&nbsp; | &nbsp;<a href="https://codepen.io/U-ways/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i>U-ways</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
